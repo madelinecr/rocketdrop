@@ -16,8 +16,8 @@ development:
 # Also, this might need to be reconfigured as a postgres table.
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: rocketdrop_test
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: rocketdrop_prod
